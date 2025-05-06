@@ -47,8 +47,16 @@ function draw() {
   textAlign(CENTER);
   text('watch it bend', width/2, height*(7/27));
 
-// add bended envelope here and uncomment background
-
+// add bended envelope here 
+    
+  if (mouseX<width/2 & mouseX>width/4){
+    fill('black')
+    triangle(width*(192/61), height* (54/17),width*(48/17),height* (108/55),width*(192/61),height* (54/37))
+    }
+  if (mouseX>width/2 & mouseX<width*(5/8)){
+    fill('black')
+   triangle(width*(192/131), height* (54/17),width*(48/31),height* (108/55),width*(192/131),height* (54/37))
+    }
   }
 }
 
