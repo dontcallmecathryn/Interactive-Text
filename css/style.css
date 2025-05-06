@@ -1,0 +1,84 @@
+@font-face {
+  font-family: SpecialElite-Regular;
+  src: url(../fonts/SpecialElite-Regular.ttf);
+}
+
+@font-face {
+  font-family: SystemaEncephale;
+  src: url(../fonts/SystemaEncephale.ttf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /* font-size: 32px; */
+  background-color: black;
+}
+canvas {
+  display: block;
+}
+
+h1{
+  font-family: SystemaEncephale;
+  color: white;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  font-family: SpecialElite-Regular;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+#next{
+  position: absolute;
+  font-family: SystemaEncephale;
+  font-size: 20px;
+  left: 84.5%;
+  top: 77.5%;
+
+
+}
+
+#next-button {
+  position:absolute;
+  color: black;
+  font-family: SystemaEncephale;
+  font-size: 20px;
+  left: 84.5%;
+  top: 77.5%;
+  text-decoration: none;
+}
+
+#next-button2 {
+  position:absolute;
+  color: white;
+  font-family: SystemaEncephale;
+  font-size: 20px;
+  left: 84.5%;
+  top: 77.5%;
+  text-decoration: none;
+}
+
+#back-to-beginning-button{
+  position: absolute;
+  color: white;
+  font-family: SystemaEncephale;
+  font-size: 20;
+  text-align: left;
+  left: 70.5%;
+  top: 77.5%;
+  text-decoration: none;
+}
