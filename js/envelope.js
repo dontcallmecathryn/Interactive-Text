@@ -29,11 +29,13 @@ function draw() {
   
   // envelope
   rectMode(CENTER);
+  noStroke();
   fill('white')
   rect(width/2,height/2,width*(35/96),height*(10/27));
   stroke('black');
   line(width*(61/192), height*(17/54), width*(1/2), height*(1/2));
   line(width*(1/2),height*(1/2),width*(131/192),height*(17/54));
+
   // seal
   noStroke();
   fill('red')
@@ -50,12 +52,14 @@ function draw() {
 // add bended envelope here 
     
   if (mouseX<width/2 & mouseX>width/4){
+    noStroke();
     fill('black')
-    triangle(width*(192/61), height* (54/17),width*(48/17),height* (108/55),width*(192/61),height* (54/37))
+    triangle(width*(61/192), height* (17/54),width*(17/48),height* (55/108),width*(61/192),height* (37/54))
     }
   if (mouseX>width/2 & mouseX<width*(5/8)){
+    noStroke();
     fill('black')
-   triangle(width*(192/131), height* (54/17),width*(48/31),height* (108/55),width*(192/131),height* (54/37))
+    triangle(width*(131/192), height* (17/54),width*(31/48),height* (55/108),width*(131/192),height* (37/54))
     }
   }
 }
