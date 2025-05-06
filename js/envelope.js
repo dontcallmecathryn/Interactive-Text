@@ -54,12 +54,12 @@ function draw() {
   if (mouseX<width/2 & mouseX>width/4){
     noStroke();
     fill('black')
-    triangle(width*(61/192), height* (17/54),width*(17/48),height* (55/108),width*(61/192),height* (37/54))
+    triangle(width*(60/192), height* (16/54),width*(17/48),height* (55/108),width*(60/192),height* (38/54))
     }
   if (mouseX>width/2 & mouseX<width*(5/8)){
     noStroke();
     fill('black')
-    triangle(width*(131/192), height* (17/54),width*(31/48),height* (55/108),width*(131/192),height* (37/54))
+    triangle(width*(132/192), height* (16/54),width*(31/48),height* (55/108),width*(132/192),height* (38/54))
     }
   }
 }
