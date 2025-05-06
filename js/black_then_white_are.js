@@ -4,8 +4,8 @@ var displayedAnchor = false;
 var font;
 
 function preload() {
-  nextfont = loadFont('../fonts/SystemaEncephale.ttf');
-  font = loadFont('../fonts/SpecialElite-Regular.ttf');
+  nextfont = loadFont('fonts/SystemaEncephale.ttf');
+  font = loadFont('fonts/SpecialElite-Regular.ttf');
 }
 
 function setup() {
