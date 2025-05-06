@@ -47,7 +47,7 @@ function draw() {
   textAlign(CENTER);
   text('watch it bend', width/2, height*(7/27));
 
-// add bended envelope here
+// add bended envelope here and uncomment background
 
   }
 }
