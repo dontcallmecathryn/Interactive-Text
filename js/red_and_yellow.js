@@ -22,6 +22,8 @@ function setup() {
   }
 }
 
+// credits to Patt Vira on Youtube for the tutorial
+
 function draw() {
   background(0);
   fill('white')
