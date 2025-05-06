@@ -7,10 +7,10 @@ var img1;
 var img2;
 
 function preload(){
-  nextfont = loadFont('../fonts/SystemaEncephale.ttf');
-  font = loadFont('../fonts/SpecialElite-Regular.ttf');
-  img1 = loadImage('../img/creepyeye.jpg');
-  img2 = loadImage('../img/creepyeye2.png');
+  nextfont = loadFont('fonts/SystemaEncephale.ttf');
+  font = loadFont('fonts/SpecialElite-Regular.ttf');
+  img1 = loadImage('img/creepyeye.jpg');
+  img2 = loadImage('img/creepyeye2.png');
 }
 
 function setup() {

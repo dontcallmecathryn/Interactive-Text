@@ -5,9 +5,9 @@ var font;
 var img;
 
 function preload(){
-  nextfont = loadFont('../fonts/SystemaEncephale.ttf');
-  font = loadFont('../fonts/SpecialElite-Regular.ttf');
-  img = loadImage('../img/toolsun.png');
+  nextfont = loadFont('fonts/SystemaEncephale.ttf');
+  font = loadFont('fonts/SpecialElite-Regular.ttf');
+  img = loadImage('img/toolsun.png');
 }
 
 let posX;

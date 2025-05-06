@@ -5,9 +5,9 @@ var img;
 var displayedAnchor = false;
 
 function preload() {
-  nextfont = loadFont('../fonts/SystemaEncephale.ttf');
-  font = loadFont('../fonts/SpecialElite-Regular.ttf');
-  img = loadImage("../img/blkwh.png")
+  nextfont = loadFont('fonts/SystemaEncephale.ttf');
+  font = loadFont('fonts/SpecialElite-Regular.ttf');
+  img = loadImage("img/blkwh.png")
 }
 
 function setup() {

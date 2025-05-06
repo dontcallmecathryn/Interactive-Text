@@ -8,8 +8,8 @@ let num = 50;
 let x; let y = 260; let w = 200; let h = 5;
 
 function preload() {
-  nextfont = loadFont('../fonts/SystemaEncephale.ttf');
-  font = loadFont('../fonts/SpecialElite-Regular.ttf');
+  nextfont = loadFont('fonts/SystemaEncephale.ttf');
+  font = loadFont('fonts/SpecialElite-Regular.ttf');
 }
 
 function setup() {

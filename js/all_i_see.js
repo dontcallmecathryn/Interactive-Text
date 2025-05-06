@@ -19,10 +19,10 @@ let string1 = "all i see";
 let string2 = "in my infancy";
 
 function preload() {
-  nextfont = loadFont('../fonts/SystemaEncephale.ttf');
-  font = loadFont('../fonts/SpecialElite-Regular.ttf');
-  pupil = loadImage('../img/toolpupil.png')
-  eye = loadImage('../img/tooleyenopupil.png')
+  nextfont = loadFont('fonts/SystemaEncephale.ttf');
+  font = loadFont('fonts/SpecialElite-Regular.ttf');
+  pupil = loadImage('img/toolpupil.png')
+  eye = loadImage('img/tooleyenopupil.png')
 }
 
 function setup() {
