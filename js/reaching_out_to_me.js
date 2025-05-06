@@ -32,10 +32,6 @@ function draw() {
     textFont(font);
     textAlign(CENTER);
     text("lets me see", width / 2, height*(16/27));
-    // textSize(18);
-    // textAlign(LEFT)
-    // textFont(nextfont);
-    // text('nexT', width*(161/192), height*(5/6));
 
     let nextButton = createA('page5.html', "nexT");
       nextButton.id('next-button2');
