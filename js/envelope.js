@@ -50,8 +50,6 @@ function draw() {
 // add bended envelope here
 
   }
-
-
 }
 
 function mouseClicked(){
