@@ -2,7 +2,6 @@ var nextfont;
 var wordCount = 0;
 var displayedAnchor = false;
 var font;
-var hint = false;
 
 function preload() {
   nextfont = loadFont('fonts/SystemaEncephale.ttf');
@@ -14,20 +13,11 @@ function setup() {
   background(0);
   fill('white');
   textFont(font);
-  // text("(press any key)", width*(15/32), width / 2);
-}
-
-function draw(){
-  if (!hint){
-    background(0);
-    text("(press any key)", width*(15/32), width / 2);
-  }
+  text("(press any key)", width*(15/32), width / 2);
 }
 
 function keyPressed() {
   if (keyIsPressed === true) {
-    // background(0);
-    hint = true;
     
     if (wordCount == 0) {
       fill("white");
@@ -44,7 +34,7 @@ function keyPressed() {
       textSize(28);
       textFont(font);
       text("then ", width*(35/96), height*(17/27));
-      fill("black");
+      // fill("black");
     }
     
     if (wordCount == 2) {
@@ -53,7 +43,7 @@ function keyPressed() {
       textSize(28);
       textFont(font);
       text("white ", width*(2/3), height*(1/3));
-      fill("white");
+      // fill("white");
     }
     
     if (wordCount == 3) {
@@ -61,7 +51,7 @@ function keyPressed() {
       textSize(28);
       textFont(font);
       text("are ", width*(5/12), height*(1/2));
-      fill("white");
+      // fill("white");
     }
     
       if (wordCount == 4 && !displayedAnchor) {
