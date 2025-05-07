@@ -18,6 +18,10 @@ let string1 = "all i see";
 
 let string2 = "in my infancy";
 
+window.onload = function(){
+  window.scrollTo(0,0);
+}
+
 function preload() {
   nextfont = loadFont('fonts/SystemaEncephale.ttf');
   font = loadFont('fonts/SpecialElite-Regular.ttf');
