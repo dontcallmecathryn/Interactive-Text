@@ -17,6 +17,10 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
+window.onload = function(){
+  window.scrollTo(0,0);
+}
+
 function draw(){
   background(0);
   image(img1, width*(15/32), height*(7/18), window.innerWidth*(5/12),window.innerHeight *(8/15)); 
