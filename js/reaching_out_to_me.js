@@ -11,12 +11,9 @@ function preload() {
   img = loadImage("img/blkwh.png")
 }
 
-window.onload = function(){
-  window.scrollTo(0,0);
-}
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  // window.scrollTo(0,0);
   background(0);
   fill("white");
   textFont(font);
