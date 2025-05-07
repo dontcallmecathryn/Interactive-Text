@@ -13,7 +13,7 @@ function setup() {
   background(0);
   fill('white');
   textFont(font);
-  text("(press any key)", width*(15/32), width / 2);
+  text("(press any key)", width*(15/32), height*(24/27));
 }
 
 function keyPressed() {
