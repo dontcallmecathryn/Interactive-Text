@@ -40,7 +40,7 @@ function setup() {
 
 function draw(){
   background(0);
-  image(img, -35,0, 552/1.5, 432/1.5);
+  image(img, -35,0, window.innerWidth*(23/60),window.innerHeight*(8/15));
   
   fill('white');
   textSize(28);
